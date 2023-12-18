@@ -1,1 +1,2 @@
 # AutoArchive
+Sitecore Schedule Task that Itereates through all items in the content tree as it specified in the StartPath variable e.g "/sitecore/content/Home" to check the number of versions for each langauge in the item, if it's more than the limit that was set in the VersionLimit variable, then it will take the versions that created in the beging and set the "Archive Data version" field to be scheduled.
