@@ -3,8 +3,10 @@ Sitecore Schedule Task that itereates through all items in the content tree unde
 
 For running this task on certin server only e.g: CM, you can create your own DatabaseAgent configuration, and add this path configuration to that server only e.g:
 
-```<agent type="Sitecore.Tasks.DatabaseAgent" method="Run" interval="01:00:00">
+```
+<agent type="Sitecore.Tasks.DatabaseAgent" method="Run" interval="01:00:00">
 <param desc="database">web</param>
 <param desc="schedule root">/sitecore/system/tasks/schedules/CM</param>
 <LogActivity>true</LogActivity>
 </agent>
+```
